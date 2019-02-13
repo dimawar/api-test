@@ -1,0 +1,9 @@
+web_controller:
+    resource: ../../src/Infrastructure/Http/Web/Controller/
+    type: annotation
+    prefix: /web
+
+rest_controller:
+    resource: ../../src/Infrastructure/Http/Rest/Controller/
+    type: annotation
+#    prefix: /api
